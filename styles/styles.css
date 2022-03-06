@@ -2,3 +2,36 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 500px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.odinimg {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 200px;
+}
+
+.odinimg > img {
+    height: 125px;
+}
+
+.credits {
+    margin-top: auto;
+}
