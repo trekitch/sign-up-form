@@ -1,67 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <title>Sign Up Form</title>
-</head>
-<body>
-    <div class="container">
-        <div class="sidebar">
-            <img src="./imgs/italy.jpg" alt="italyMountainside">
-            <div class="odinimg">
-                <img class="odin" src="./imgs/odin-lined.png" alt="odin outline image">
-                <p>ODIN</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <title>Sign Up Form</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <img src="./imgs/italy.jpg" alt="italyMountainside" />
+                <div class="odinimg">
+                    <img class="odin" src="./imgs/odin-lined.png" alt="odin outline image" />
+                    <p>ODIN</p>
+                </div>
+                <p class="credits">Photo by<a href="https://unsplash.com/@matteo_baldan">Matteo Baldan</a> on <a href="https://unsplash.com/">Unsplash</a></p>
             </div>
-            <p class="credits">Photo by <a href="https://unsplash.com/@matteo_baldan">Matteo Baldan</a> on <a href="https://unsplash.com/">Unsplash</a></p>        
+            <div class="main-content">
+                <div class="heading">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                    <p>Sign up <i>now</i> to get started.</p>
+                    <br />
+                    <p>You <i>know</i> you want to.</p>
+                </div>
+
+                <div class="form-section">
+                    <h2>Let's do this!</h2>
+                    <form action="" method="post">
+                        <div class="row">
+                            <div>
+                                <label for="first_name">First Name</label>
+                                <input type="text" id="first_name" name="first_name" />
+                            </div>
+
+                            <div>
+                                <label for="last_name">Last Name</label>
+                                <input type="text" id="last_name" name="last_name" />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" />
+                            </div>
+
+                            <div>
+                                <label for="phone">Phone Number</label>
+                                <input type="phone" id="phone" name="phone" />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" />
+                            </div>
+
+                            <div>
+                                <label for="confirm_pass">Confirm Password</label>
+                                <input type="password" id="password" name="password" />
+                            </div>
+                        </div>
+
+                        <button>Create Account</button>
+                        <p>Alreay have an account? <a href="#">Log in</a></p>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="main-content">
-            <div>
-                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. </p>
-                <p>Sign up <i>now</i> to get started.</p>
-                <br>
-                <p>You <i>know</i> you want to.</p>
-            </div>
-
-            <div class="form-section">
-                <h2>Let's do this!</h2>
-                <form action="" method="post">
-                    <div>
-                        <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" name="first_name">
-    
-                        <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" name="last_name">
-
-                    </div>
-
-                    <div>                        
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" name="phone" id="phone">
-                    </div>
-
-                    <div>
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
-    
-                        <label for="confirm_password">Confirm Password</label>
-                        <input type="password" name="confirm_password" id="confirm_password">
-
-                    </div>
-
-                    <button>Create Account</button>
-                    <p>Alreay have an account? <a href="#">Log in</a></p>
-                </form>
-            </div>
-            
-        </div>
-
-    </div>
-
-</body>
+    </body>
 </html>
