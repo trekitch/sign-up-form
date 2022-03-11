@@ -47,7 +47,39 @@
 }
 
 .main-content {
-    padding: 50px;
     font-size: 1.5em;
     font-weight: 700;
+    background-color: rgb(243, 243, 243);
+}
+
+.heading {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+}
+
+input {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    gap: 3em;
+}
+
+.form-section {
+    /* border: 1px solid red; */
+    width: 100%;
+    box-shadow: 2px 5px 15px grey;
+    background-color: white;
+}
+
+.main-content > * {
+    padding: 10px 50px;
 }
