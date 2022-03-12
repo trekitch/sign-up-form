@@ -106,11 +106,17 @@ input {
 
 .form-section input {
     background-color: #ffffff;
-    border: 1px solid #d6d9dc;
+    border: 1px solid #e5e7eb;
     border-radius: 3px;
     width: 100%;
     padding: 7px;
     font-size: 14px;
+}
+
+.form-section input:focus {
+    outline: none;
+    border: 1px solid rgb(174, 234, 253);
+    box-shadow: 2px 2px 2px grey;
 }
 
 .main-content > * {
